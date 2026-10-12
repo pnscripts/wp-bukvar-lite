@@ -1,0 +1,13 @@
+{
+    "name": "pnscripts/bukvar-lite",
+    "description": "Bukvar Lite: new Bulgarian Cyrillic slugs and upload file names in Latin for WordPress, following the Bulgarian Transliteration Act.",
+    "type": "wordpress-plugin",
+    "license": "GPL-3.0-or-later",
+    "homepage": "https://pnscripts.com/marketplace/bukvar",
+    "authors": [{"name": "PN Scripts", "email": "office@pnscripts.com", "homepage": "https://pnscripts.com"}],
+    "require": {"php": ">=8.1", "ext-mbstring": "*"},
+    "require-dev": {"phpunit/phpunit": "^12.0"},
+    "autoload": {"psr-4": {"BukvarLite\\": "src/"}},
+    "autoload-dev": {"psr-4": {"BukvarLite\\Tests\\": "tests/"}},
+    "config": {"sort-packages": true}
+}
