@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name:       Bukvar Lite by PN Scripts
- * Plugin URI:        https://pnscripts.com/marketplace/bukvar
+ * Plugin URI:        https://pnscripts.com/marketplace/wp-bukvar
  * Description:       Writes new Bulgarian Cyrillic slugs and upload file names in Latin by the Bulgarian Transliteration Act (София to sofia).
  * Version:           1.0.0
  * Requires at least: 6.5
