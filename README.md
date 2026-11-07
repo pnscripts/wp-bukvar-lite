@@ -12,6 +12,20 @@ with 301 redirects, Russian and Ukrainian tables and WP-CLI.
 
 ![A Bulgarian title and its Latin slug](assets/screenshot-1.png)
 
+## Install
+
+1. Download `bukvar-lite-1.0.0.zip` from
+   [GitHub Releases](https://github.com/pnscripts/wp-bukvar-lite/releases/latest)
+   (WordPress 6.5 or newer, PHP 8.1 or newer).
+2. In WordPress: Plugins, Add New Plugin, Upload Plugin, choose the zip,
+   Install Now, then Activate.
+3. New slugs and uploaded file names are written in Latin from then on.
+   Optional: Settings, Permalinks, section "Latin slugs and file names", to
+   switch slugs, file names or lower case off.
+
+To remove it, deactivate and delete it on the Plugins screen; its settings
+are deleted with it; slugs and file names it already wrote stay Latin.
+
 ## Develop
 
 ```
